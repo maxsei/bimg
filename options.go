@@ -10,7 +10,8 @@ const (
 	// Quality defines the default JPEG quality to be used.
 	Quality = 80
 	// MaxSize defines the maximum pixels width or height supported.
-	MaxSize = 16383
+	// MaxSize = 16383
+	MaxSize = 10000000
 )
 
 // Gravity represents the image gravity value.
